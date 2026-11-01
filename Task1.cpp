@@ -1,6 +1,5 @@
-/* Напишите int routeCost(int fare, int rides), возвращающую общую стоимость поездок.*/
+/* РќР°РїРёС€РёС‚Рµ int routeCost(int fare, int rides), РІРѕР·РІСЂР°С‰Р°СЋС‰СѓСЋ РѕР±С‰СѓСЋ СЃС‚РѕРёРјРѕСЃС‚СЊ РїРѕРµР·РґРѕРє.*/
 #include <iostream>
-#include <windows.h>
 
 using namespace std;
 
@@ -9,13 +8,10 @@ int routeCost(int fare, int rides) {
 }
 
 int main() {
-	SetConsoleCP(65001);
-	SetConsoleOutputCP(65001);
-	setlocale(LC_ALL, "Russian");
 	int a, b;
-	cout << "Введите стоимость поездки и количество поездок: ";
+	cout << "Р’РІРµРґРёС‚Рµ СЃС‚РѕРёРјРѕСЃС‚СЊ РїРѕРµР·РґРєРё Рё РєРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРµР·РґРѕРє: ";
 	cin >> a >> b;
 	int cost = routeCost(a, b);
-	cout << "Общая стоимость поездок: " << cost << endl;
+	cout << "РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїРѕРµР·РґРѕРє: " << cost << endl;
 	return 0;
 }
